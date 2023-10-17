@@ -1,0 +1,128 @@
+* {
+    letter-spacing: 1px;
+    font-family: 'Helvetica', 'Droidsansfallback', 'Heiti SC';
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color: #333;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 950px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    min-width: 320px;
+    padding-bottom: 0.1px;
+}
+.title {
+    color: #616161;
+    list-style: none;
+    border-left: solid 5px #009688;
+    margin: 12px 8px;
+    padding-left: 8px;
+    font-size: 14px;
+}
+
+.show {
+    background-color: #fff;
+    margin: 8px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    padding: 16px;
+    font-size: 14px;
+    color: #616161;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.shows{
+    width: 65%;
+    background-color: #fff;
+    margin: 8px auto;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    padding: 3px;
+    font-size: 14px;
+    color: #616161;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+.showd{
+    display: none;
+    width: 65%;    
+    background-color: #fff;
+    margin: 8px auto;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    padding: 3px;
+    font-size: 14px;
+    color: #616161;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+.p{
+    white-space: normal;
+    display: inline;
+    color: #ee3022e3;
+}
+.zd{
+    white-space: normal;
+    display: inline;
+    color: dodgerblue;
+}
+.sk{
+    color: #0051ff;
+}
+.s{
+  white-space: normal;
+  display: inline;
+  color: rgba(255, 0, 0, 0.85);
+}
+.j{
+  white-space: normal;
+  display: inline;
+  color: rgba(4, 173, 21, 0.94);
+}
+#wx{
+  width: 100px;
+  height: 45px;
+  margin: 10px;
+  background-color: #2EC915;
+  border-radius: 2px;
+  box-shadow: 0px 0px 5px 3px rgba(0, 225, 67, 1);
+}
+#zfb{
+  width: 100px;
+  height: 45px;
+  margin-left: 80px;
+  background-color: #08AAF5;
+  border-radius: 2px;
+  box-shadow: 0px 0px 5px 3px rgba(9, 105, 164, 1);
+}
+.wx1, .zfb1{
+  font-size: 18px;
+  color: #fff;
+}
+.qq{
+  width: 38px;
+  height: 30px;
+  position: absolute;
+  top: -32px;
+  left: -1px;
+}
+a{
+  display: inline;
+  white-space: normal;
+  position: relative;
+  top: 18px;
+  left: 3px;
+}
+a:hover{
+  cursor: pointer;
+  color: #FFE900;
+  text-decoration: underline;
+}
