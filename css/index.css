@@ -38,32 +38,6 @@ body {
     line-height: 24px;
     word-wrap: break-word;
 }
-
-.shows{
-    width: 65%;
-    background-color: #fff;
-    margin: 8px auto;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
-    border-radius: 2px;
-    padding: 3px;
-    font-size: 14px;
-    color: #616161;
-    line-height: 24px;
-    word-wrap: break-word;
-}
-.showd{
-    display: none;
-    width: 65%;    
-    background-color: #fff;
-    margin: 8px auto;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
-    border-radius: 2px;
-    padding: 3px;
-    font-size: 14px;
-    color: #616161;
-    line-height: 24px;
-    word-wrap: break-word;
-}
 .p{
     white-space: normal;
     display: inline;
@@ -90,18 +64,36 @@ body {
 #wx{
   width: 100px;
   height: 45px;
-  margin: 10px;
   background-color: #2EC915;
   border-radius: 2px;
-  box-shadow: 0px 0px 5px 3px rgba(0, 225, 67, 1);
+  position: absolute;
+  left: 25px;
+  bottom: 10px;
 }
 #zfb{
   width: 100px;
   height: 45px;
-  margin-left: 80px;
   background-color: #08AAF5;
   border-radius: 2px;
-  box-shadow: 0px 0px 5px 3px rgba(9, 105, 164, 1);
+  position: absolute;
+  left: 205px;
+  bottom: 10px;
+}
+#wx:active{
+  background-color: rgba(60, 155, 54, 1);
+}
+#zfb:active{
+  background-color: rgba(16, 120, 217, 1);
+}
+#wx:hover{
+  cursor: pointer;
+}
+#zfb:hover{
+  cursor: pointer;
+}
+img{
+  border: 1px solid rgba(148, 149, 157, 0.68);
+  border-radius: 2px;
 }
 .wx1, .zfb1{
   font-size: 18px;
@@ -113,6 +105,9 @@ body {
   position: absolute;
   top: -23px;
   left: 3px;
+  border: none;
+  border-radius: none;
+  box-shadow: none;
 }
 a{
   display: inline;
@@ -125,4 +120,73 @@ a:hover{
   cursor: pointer;
   color: #FFE900;
   text-decoration: underline;
+}
+.toolk{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.67);
+}
+.shbox{
+  width: 330px;
+  height: 560px;
+  background-color: #ece8e8;
+  z-index: 2;
+  position: relative;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+}
+.shws{
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 280px;
+}
+.shwd{
+  display: none;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 280px;
+  height: 300px
+}
+.shw{
+  position: absolute;
+  bottom: 5px;
+}
+.tit{
+  font-size: 20px;
+  position: absolute;
+  top: 2px;
+  left: 5px;
+}
+.x{
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+}
+#ou:hover{
+  cursor: pointer;
+}
+#souk{
+  width: 70px;
+  height: 30px;
+  background-color: #0093FF;
+  border-radius: 2px;
+  color: #fff;
+}
+#souk:active{
+  background-color: #0070C3;
 }
