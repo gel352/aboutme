@@ -1,17 +1,26 @@
 var zfb = document.getElementById('zfb');
 var wx = document.getElementById('wx');
-var shows = document.querySelector('.shows');
-var showd = document.querySelector('.showd');
-wx.addEventListener('click', function(){
-  setTimeout(function(){
-  shows.style.display = 'block';
-  showd.style.display = 'none';
-  }, 300);
+var shows = document.querySelector('.shws');
+var showd = document.querySelector('.shwd');
+$(wx).click(function(){
+  
+  $(shows).fadeIn(260);
+  $(showd).fadeOut(260);
+});
+$(zfb).click(function(){
+
+  $(shows).fadeOut(260);
+  $(showd).fadeIn(260);
+
 });
 
-zfb.addEventListener('click', function(){
+var out = document.getElementById('ou');
+$(out).click(function(){
+  $('.toolk').fadeOut(160);
+})
+var sou = document.getElementById('souk');
+$(sou).click(function(){
   setTimeout(function(){
-  shows.style.display = 'none';
-  showd.style.display = 'block';
-  },300);
+  $('.toolk').fadeIn(160);
+  },200);
 });
