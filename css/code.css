@@ -1,0 +1,102 @@
+/*收款码显示*/
+#toolk{
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.67);
+}
+.shbox{
+  width: 330px;
+  height: 540px;
+  background-color: #ece8e8;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 3px;
+}
+.sho div{
+  position: absolute;
+  width: 286px;
+  height: 420px;
+  left: 22px;
+  top: 50px;
+}
+.sho img{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.wxzf{
+  z-index: 3;
+}
+.zfbzf{
+  z-index: 2;
+}
+.qqzf{
+  z-index: 1;
+}
+.shw{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid #ccc;
+  border-radius: 0 0 3px 3px;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.shw button{
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+}
+.shw button img{
+  border: none;
+}
+.tit{
+  font-size: 20px;
+  width: 100%;
+  height: 36px;
+  background-color: rgba(186, 151, 74, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.tit span{
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  color: #fff;
+}
+.tit #ou{
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: -12px;
+  top: -12px;
+}
+.tit #ou .x{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: none;
+}
+#ou::hover{
+  cursor: pointer;
+}
+#souk{
+  width: 70px;
+  height: 30px;
+  background-color: #0093FF;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+}
+#souk:active{
+  background-color: #0070C3;
+}
